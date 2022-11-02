@@ -13,7 +13,7 @@ namespace MySQL.Controllers
         }
         public string Index()
         {
-            return _iEmployeeRepository.GetEmployee(1).Name;
+            return @"Name: " +_iEmployeeRepository.GetEmployee(2).Name ;
         }
     }
 }

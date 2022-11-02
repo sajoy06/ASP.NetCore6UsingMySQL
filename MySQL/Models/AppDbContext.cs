@@ -19,16 +19,16 @@ namespace MySQL.Models
                 new Employee
                 {
                     Id = 1,
-                    Name = "Mark",
+                    Name = "Sumon Khan",
                     Department = Dept.HR.ToString(),
-                    Email = "mark@pragimtech.com"
+                    Email = "sumon@test.com"
                 },
                 new Employee
                 {
                     Id = 2,
-                    Name = "Arif",
+                    Name = "Arif Ahamed Sajoy",
                     Department = Dept.IT.ToString(),
-                    Email = "Arif@pragimtech.com"
+                    Email = "sajoy@live.com"
                 }
             );
 

@@ -45,15 +45,15 @@ namespace MySQL.Migrations
                         {
                             Id = 1,
                             Department = "HR",
-                            Email = "mark@pragimtech.com",
-                            Name = "Mark"
+                            Email = "sumon@test.com",
+                            Name = "Sumon Khan"
                         },
                         new
                         {
                             Id = 2,
                             Department = "IT",
-                            Email = "Arif@pragimtech.com",
-                            Name = "Arif"
+                            Email = "sajoy@live.com",
+                            Name = "Arif Ahamed Sajoy"
                         });
                 });
 #pragma warning restore 612, 618

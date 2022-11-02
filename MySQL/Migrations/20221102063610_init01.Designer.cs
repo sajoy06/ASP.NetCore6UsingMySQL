@@ -10,8 +10,8 @@ using MySQL.Models;
 namespace MySQL.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221102053821_inti")]
-    partial class inti
+    [Migration("20221102063610_init01")]
+    partial class init01
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -47,15 +47,15 @@ namespace MySQL.Migrations
                         {
                             Id = 1,
                             Department = "HR",
-                            Email = "mark@pragimtech.com",
-                            Name = "Mark"
+                            Email = "sumon@test.com",
+                            Name = "Sumon Khan"
                         },
                         new
                         {
                             Id = 2,
                             Department = "IT",
-                            Email = "Arif@pragimtech.com",
-                            Name = "Arif"
+                            Email = "sajoy@live.com",
+                            Name = "Arif Ahamed Sajoy"
                         });
                 });
 #pragma warning restore 612, 618
